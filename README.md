@@ -43,4 +43,4 @@ axios.get("http://localhost:4000", options)
 
 #### Response
 The API simply forwards whatever Google API responses.
-See [this](https://developers.google.com/places/web-service/search#PlaceSearchResponses) for response signature.
+Please see [this](https://developers.google.com/places/web-service/search#PlaceSearchResponses) for response signature.
