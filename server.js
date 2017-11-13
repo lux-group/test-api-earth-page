@@ -23,8 +23,10 @@ app.get("/", function (req, res) {
     else {
         const {key, city} = req.query;
         const options = {
-            key: key,
-            city: city
+	    params: {
+                key: key,
+                query: city
+	    }
         };
 
         axios.get("https://maps.googleapis.com/maps/api/place/textsearch/json", options)
